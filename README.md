@@ -24,6 +24,7 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
 | BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
 | Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | CHECKTEMPLATEVERIFY |
+| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Interactive CTV experimentation tool | Prototype | CHECKTEMPLATEVERIFY |
 
 ## Tools
 
