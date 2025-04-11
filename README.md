@@ -15,14 +15,14 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 
 | Name | Links | Description | Phase | Primitives |
 |------|-------|-------------|-------|------------|
-| Pool | • [Presentation Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Implementation](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio Example](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/) | Rolling coinjoin (joinpool) | Prototype | CHECKTEMPLATEVERIFY |
+| Pool | • [Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Code](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/) | Rolling coinjoin (joinpool) | Prototype | CHECKTEMPLATEVERIFY |
 | Payment Pool | - | Payment pool implementation | Prototype | CHECKTEMPLATEVERIFY |
-| Vault | • [Simple CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [OPVault Demo](https://github.com/jamesob/opvault-demo)<br>• [SecureTheSandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | CHECKTEMPLATEVERIFY |
+| Vault | • [CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [Demo](https://github.com/jamesob/opvault-demo)<br>• [Sandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | CHECKTEMPLATEVERIFY |
 | Dynamic Vaults | - | Advanced vault implementation | Prototype | VAULT / CHECKCONTRACTVERIFY |
-| DLCs | • [DLC Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Use Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | CHECKTEMPLATEVERIFY / TXHASH / CHECKCONTRACTVERIFY |
+| DLCs | • [Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | CHECKTEMPLATEVERIFY / TXHASH / CHECKCONTRACTVERIFY |
 | Transferable DLCs | - | Advanced DLC implementation | Idea | CAT / TXHASH / CHECKCONTRACTVERIFY |
-| Ark | • [Bark Implementation](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
-| BitVM | • [Discussion](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
+| Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
+| BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
 
 ## Tools
 
@@ -38,7 +38,8 @@ Important technical discussions about OP_CTV and its applications.
 
 | Topic | Date | Author | Links | Key Points |
 |-------|------|--------|-------|------------|
-| DLC Performance Improvements | Jan 24, 2022 | Lloyd Fournier | • [Mailing List Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Original DLC Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [DLC Specs](https://github.com/discreetlogcontracts/dlcspecs) | • ~30x performance improvement for DLCs<br>• Eliminates multiple multiplications<br>• Reduces communication complexity<br>• Enables efficient threshold oracles<br>• Technical details on attestation points |
+| DLC Performance | Jan 24, 2022 | Lloyd Fournier | • [Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Spec](https://github.com/discreetlogcontracts/dlcspecs) | • 30x faster DLCs<br>• No multiplications<br>• Constant comms<br>• Efficient oracles<br>• Secure attestations |
+| BitVM Bridges | Apr 9, 2025 | Robin Linus | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | • No committee needed<br>• Unconditional safety<br>• 10x smaller txs<br>• Non-interactive keys<br>• Better capital efficiency |
 
 *More discussions will be added as they are identified and analyzed.*
 
