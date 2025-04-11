@@ -19,7 +19,6 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | Vault | • [CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [Demo](https://github.com/jamesob/opvault-demo)<br>• [Sandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | ✓ | | | | |
 | Android CTV Demo | • [Code](https://github.com/percy-g2/android_app_ctv_playground)<br>• [Release](https://github.com/percy-g2/android_app_ctv_playground/releases/tag/v0.1.0) | Native Android implementation demonstrating CTV Vault and payment pools with interactive UI | Prototype | ✓ | | | | |
 | DLCs | • [Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | ✓ | | ✓ | | ✓ |
-| Transferable DLCs | - | Advanced DLC implementation | Idea | | | ✓ | ✓ | ✓ |
 | Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | ✓ | | ✓ | | |
 | BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | ✓ | ✓ | | ✓ | |
 | Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | ✓ | | | | |
@@ -30,7 +29,7 @@ A collection of development and experimentation tools for CTV+CSFS.
 
 | Name | Links | Description | Phase | CTV | CSFS | When to Use |
 |------|-------|-------------|-------|-----|------|------------|
-| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | Learning CTV concepts through interactive examples |
+| CTV Playground | • [Site](https://ctv.ursus.camp/)<br> | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | Learning CTV concepts through interactive examples |
 | ctvlib | • [Repo](https://github.com/ursuscamp/ctvlib) | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | Adding CTV functionality to Rust applications |
 | Minsc | • [Site](https://min.sc/)<br>• [v0.3](https://min.sc/v0.3/) | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | Writing complex CTV scripts in a high-level language |
 | Sapio Miniscript | • [Docs](https://docs.rs/sapio-miniscript/latest/sapio_miniscript/)<br>• [Crate](https://crates.io/crates/sapio-miniscript) | Production-ready Rust library for CTV+CSFS script development with Miniscript | Production | ✓ | ✓ | Building production applications with CTV+CSFS and Miniscript |
