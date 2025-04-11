@@ -36,7 +36,13 @@ A collection of development and experimentation tools for CTV+CSFS.
 
 ## Learning Resources
 
-*Coming soon - Educational materials about CTV+CSFS*
+Educational materials about CTV+CSFS.
+
+| Name | Author | Links | Description |
+|------|--------|-------|-------------|
+| Covenants 101 | Owen Kemeys | • [Thread](https://x.com/OwenKemeys/status/1741575353716326835) | Beginner-friendly explanation of CTV concepts, covering address construction, transaction templates, and practical applications |
+| Templates, Eltoo, and Covenants | Jeremy Rubin | • [Article](https://rubin.io/blog/2021/07/02/covenants/) | Comprehensive analysis of CTV, CSFS, CAT, and APO upgrades, including safety considerations, design tradeoffs, and implementation recommendations |
+| CSFS Re-Keying and Lightning Symmetry | Jeremy Rubin & Rearden | • [Article](https://rubin.io/bitcoin/2024/12/02/csfs-ctv-rekey-symmetry/) | Advanced technical exploration of CSFS re-keying techniques, key laddering, and applications to Lightning Network symmetry without extra signing round-trips |
 
 ## Community Discussions
 
@@ -47,6 +53,9 @@ Important technical discussions about OP_CTV and its applications.
 | DLC Performance | Jan 24, 2022 | Lloyd Fournier | • [Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Spec](https://github.com/discreetlogcontracts/dlcspecs) | • 30x faster DLCs<br>• No multiplications<br>• Constant comms<br>• Efficient oracles<br>• Secure attestations |
 | CTV Implementation | Mar 4, 2025 | James O'Beirne | • [PR](https://github.com/bitcoin/bitcoin/pull/31989)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Docs](https://bitcoinops.org/en/topics/op_checktemplateverify/) | • Regtest-only deployment<br>• Composable with CSFS/CAT<br>• Well-tested implementation<br>• No consensus changes<br>• Focused on technical review |
 | CSFS Implementation | Apr 10, 2025 | James O'Beirne | • [PR](https://github.com/bitcoin/bitcoin/pull/32247)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0348.mediawiki)<br>• [Docs](https://bitcoinops.org/en/topics/op_checksigfromstack/) | • Regtest-only deployment<br>• Complements CTV<br>• OP_SUCCESS behavior<br>• Bundled deployment possible<br>• Technical focus |
+| CTV+CSFS as First Step | Mar 10, 2025 | Steven Roose | • [Thread](https://delvingbitcoin.org/t/ctv-csfs-can-we-reach-consensus-on-a-first-step-towards-covenants/1509) | • Minimal package for covenants<br>• Enables Lightning Symmetry<br>• Simplifies DLCs and BitVM<br>• Upgrade path to TXHASH<br>• Focus on security and expressiveness |
+| Eltoo Channel Comparison | Dec 29, 2021 | Jeremy Rubin & Michael Folkson | • [Thread](https://bitcoin.stackexchange.com/questions/111497/how-do-eltoo-channel-constructions-using-anyprevout-compare-to-those-using-ctv-a) | • Fee payment challenges<br>• CPFP vs RBF tradeoffs<br>• Transaction size efficiency<br>• Implementation complexity<br>• Protocol equivalence |
+| LN-Symmetry Implementation | Jan 6, 2020 | Jeremy Rubin | • [BIP-119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki#op_checksigfromstackverify) | • Floating transaction variant<br>• Ephemeral anchors for fees<br>• Self-reproducing automata<br>• State transition restrictions<br>• Fee payment alternatives |
 
 *More discussions will be added as they are identified and analyzed.*
 
