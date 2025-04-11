@@ -22,6 +22,7 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | DLCs | • [DLC Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Use Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | CHECKTEMPLATEVERIFY / TXHASH / CHECKCONTRACTVERIFY |
 | Transferable DLCs | - | Advanced DLC implementation | Idea | CAT / TXHASH / CHECKCONTRACTVERIFY |
 | Ark | • [Bark Implementation](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
+| BitVM | • [Discussion](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
 
 ## Tools
 
