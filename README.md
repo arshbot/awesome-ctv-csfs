@@ -23,6 +23,7 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | Transferable DLCs | - | Advanced DLC implementation | Idea | CAT / TXHASH / CHECKCONTRACTVERIFY |
 | Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
 | BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
+| Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | CHECKTEMPLATEVERIFY |
 
 ## Tools
 
