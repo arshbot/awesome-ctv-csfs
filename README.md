@@ -42,4 +42,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. When addin
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+No license, no restriction
