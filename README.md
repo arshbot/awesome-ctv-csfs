@@ -39,7 +39,6 @@ Important technical discussions about OP_CTV and its applications.
 | Topic | Date | Author | Links | Key Points |
 |-------|------|--------|-------|------------|
 | DLC Performance | Jan 24, 2022 | Lloyd Fournier | • [Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Spec](https://github.com/discreetlogcontracts/dlcspecs) | • 30x faster DLCs<br>• No multiplications<br>• Constant comms<br>• Efficient oracles<br>• Secure attestations |
-| BitVM Bridges | Apr 9, 2025 | Robin Linus | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | • No committee needed<br>• Unconditional safety<br>• 10x smaller txs<br>• Non-interactive keys<br>• Better capital efficiency |
 
 *More discussions will be added as they are identified and analyzed.*
 
