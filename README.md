@@ -44,6 +44,7 @@ Educational materials about CTV+CSFS.
 | Covenants 101 | Owen Kemeys | • [Thread](https://x.com/OwenKemeys/status/1741575353716326835) | Beginner-friendly explanation of CTV concepts, covering address construction, transaction templates, and practical applications |
 | Templates, Eltoo, and Covenants | Jeremy Rubin | • [Article](https://rubin.io/blog/2021/07/02/covenants/) | Comprehensive analysis of CTV, CSFS, CAT, and APO upgrades, including safety considerations, design tradeoffs, and implementation recommendations |
 | CSFS Re-Keying and Lightning Symmetry | Jeremy Rubin & Rearden | • [Article](https://rubin.io/bitcoin/2024/12/02/csfs-ctv-rekey-symmetry/) | Advanced technical exploration of CSFS re-keying techniques, key laddering, and applications to Lightning Network symmetry without extra signing round-trips |
+| Credit Ecash + CTV | Ursus Camp | • [Article](https://ursus.camp/bitcoin/2024/02/02/credit-ecash-and-check-template-verify.html) | Exploration of combining CTV with non-custodial ecash for improved Lightning Network liquidity and privacy |
 
 ## Community Discussions
 
