@@ -42,11 +42,11 @@ Educational materials about CTV+CSFS.
 
 | Name | Author | Links | Description |
 |------|--------|-------|-------------|
+| OP_CSFS Wiki | Bitcoin Optech | [Topic](https://bitcoinops.org/en/topics/op_checksigfromstack/),<br> | Overview of OP_CHECKSIGFROMSTACK (OP_CSFS) opcode, its features, and potential applications in Bitcoin, including paying for signatures, delegation, oracles, and transaction introspection |
 | Covenants 101 | Owen Kemeys | [Thread](https://x.com/OwenKemeys/status/1741575353716326835),<br> | Beginner-friendly explanation of CTV concepts, covering address construction, transaction templates, and practical applications |
 | Templates, Eltoo, and Covenants | Jeremy Rubin | [Article](https://rubin.io/blog/2021/07/02/covenants/),<br> | Comprehensive analysis of CTV, CSFS, CAT, and APO upgrades, including safety considerations, design tradeoffs, and implementation recommendations |
 | CSFS Re-Keying and Lightning Symmetry | Jeremy Rubin & Rearden | [Article](https://rubin.io/bitcoin/2024/12/02/csfs-ctv-rekey-symmetry/),<br> | Advanced technical exploration of CSFS re-keying techniques, key laddering, and applications to Lightning Network symmetry without extra signing round-trips |
 | Credit Ecash + CTV | Ursus Camp | [Article](https://ursus.camp/bitcoin/2024/02/02/credit-ecash-and-check-template-verify.html),<br> | Exploration of combining CTV with non-custodial ecash for improved Lightning Network liquidity and privacy |
-| OP_CHECKSIGFROMSTACK | Bitcoin Optech | [Topic](https://bitcoinops.org/en/topics/op_checksigfromstack/),<br> | Overview of OP_CHECKSIGFROMSTACK (OP_CSFS) opcode, its features, and potential applications in Bitcoin, including paying for signatures, delegation, oracles, and transaction introspection |
 
 ## Community Discussions
 
