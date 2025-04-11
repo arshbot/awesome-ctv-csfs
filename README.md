@@ -31,10 +31,10 @@ A collection of development and experimentation tools for CTV+CSFS.
 
 | Name | Links | Description | Phase | CTV | CSFS | When to Use |
 |------|-------|-------------|-------|-----|------|------------|
-| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | • When you're new to CTV and want to learn by example<br>• When you need to quickly test a CTV script idea<br>• When you want to visualize how CTV transactions work |
-| ctvlib | • [Repo](https://github.com/ursuscamp/ctvlib) | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | • When you're building a Rust application that needs CTV functionality<br>• When you want to integrate CTV features into an existing Rust project<br>• When you need a lightweight CTV library without full Miniscript support |
-| Minsc | • [Site](https://min.sc/)<br>• [v0.3](https://min.sc/v0.3/) | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | • When you want to write complex CTV scripts in a high-level language<br>• When you need to generate addresses from CTV policies<br>• When you're developing Bitcoin contracts and want to avoid raw script<br>• When you need to test contract policies before implementation |
-| Sapio Miniscript | • [Docs](https://docs.rs/sapio-miniscript/latest/sapio_miniscript/)<br>• [Crate](https://crates.io/crates/sapio-miniscript) | Production-ready Rust library for CTV+CSFS script development with Miniscript | Production | ✓ | ✓ | • When you're building production applications with CTV+CSFS<br>• When you need full Miniscript support with CTV+CSFS features<br>• When you're implementing complex protocols that require PSBT support<br>• When you need to analyze transaction weights and fees |
+| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | Learning CTV concepts through interactive examples |
+| ctvlib | • [Repo](https://github.com/ursuscamp/ctvlib) | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | Adding CTV functionality to Rust applications |
+| Minsc | • [Site](https://min.sc/)<br>• [v0.3](https://min.sc/v0.3/) | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | Writing complex CTV scripts in a high-level language |
+| Sapio Miniscript | • [Docs](https://docs.rs/sapio-miniscript/latest/sapio_miniscript/)<br>• [Crate](https://crates.io/crates/sapio-miniscript) | Production-ready Rust library for CTV+CSFS script development with Miniscript | Production | ✓ | ✓ | Building production applications with CTV+CSFS and Miniscript |
 
 ## Learning Resources
 
