@@ -39,6 +39,8 @@ Important technical discussions about OP_CTV and its applications.
 | Topic | Date | Author | Links | Key Points |
 |-------|------|--------|-------|------------|
 | DLC Performance | Jan 24, 2022 | Lloyd Fournier | • [Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Spec](https://github.com/discreetlogcontracts/dlcspecs) | • 30x faster DLCs<br>• No multiplications<br>• Constant comms<br>• Efficient oracles<br>• Secure attestations |
+| CTV Implementation | Mar 4, 2025 | James O'Beirne | • [PR](https://github.com/bitcoin/bitcoin/pull/31989)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [Docs](https://bitcoinops.org/en/topics/op_checktemplateverify/) | • Regtest-only deployment<br>• Composable with CSFS/CAT<br>• Well-tested implementation<br>• No consensus changes<br>• Focused on technical review |
+| CSFS Implementation | Apr 10, 2025 | James O'Beirne | • [PR](https://github.com/bitcoin/bitcoin/pull/32247)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0348.mediawiki)<br>• [Docs](https://bitcoinops.org/en/topics/op_checksigfromstack/) | • Regtest-only deployment<br>• Complements CTV<br>• OP_SUCCESS behavior<br>• Bundled deployment possible<br>• Technical focus |
 
 *More discussions will be added as they are identified and analyzed.*
 
