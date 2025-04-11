@@ -13,26 +13,27 @@ A curated list of resources, tools, and projects related to CHECKTEMPLATEVERIFY 
 
 A collection of interesting projects utilizing covenants, particularly focusing on CTV+CSFS implementations.
 
-| Name | Links | Description | Phase | Primitives |
-|------|-------|-------------|-------|------------|
-| Pool | • [Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Code](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/)<br>• [Intro](https://rubin.io/bitcoin/2021/12/10/advent-13/)<br>• [IRC](https://freenode.irclog.whitequark.org/bitcoin-wizards/2019-05-21#24639752)<br>• [Coinpools](https://discrete-blog.github.io/coinpool/) | Scalable payment pool with CTV - supports up to 21 users, P2A fee management, and automatic coinjoin-like privacy | Prototype | CHECKTEMPLATEVERIFY |
-| Payment Pool | - | Payment pool implementation | Prototype | CHECKTEMPLATEVERIFY |
-| Vault | • [CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [Demo](https://github.com/jamesob/opvault-demo)<br>• [Sandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | CHECKTEMPLATEVERIFY |
-| Android CTV Demo | • [Code](https://github.com/percy-g2/android_app_ctv_playground)<br>• [Release](https://github.com/percy-g2/android_app_ctv_playground/releases/tag/v0.1.0) | Native Android implementation demonstrating CTV Vault and payment pools with interactive UI | Prototype | CHECKTEMPLATEVERIFY |
-| Dynamic Vaults | - | Advanced vault implementation | Prototype | VAULT / CHECKCONTRACTVERIFY |
-| DLCs | • [Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | CHECKTEMPLATEVERIFY / TXHASH / CHECKCONTRACTVERIFY |
-| Transferable DLCs | - | Advanced DLC implementation | Idea | CAT / TXHASH / CHECKCONTRACTVERIFY |
-| Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
-| BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
-| Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | CHECKTEMPLATEVERIFY |
+| Name | Links | Description | Phase | CTV | CSFS | TXHASH | CAT | CCV |
+|------|-------|-------------|-------|-----|------|--------|-----|-----|
+| Pool | • [Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Code](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/)<br>• [Intro](https://rubin.io/bitcoin/2021/12/10/advent-13/)<br>• [IRC](https://freenode.irclog.whitequark.org/bitcoin-wizards/2019-05-21#24639752)<br>• [Coinpools](https://discrete-blog.github.io/coinpool/) | Scalable payment pool with CTV - supports up to 21 users, P2A fee management, and automatic coinjoin-like privacy | Prototype | ✓ | | | | |
+| Payment Pool | - | Payment pool implementation | Prototype | ✓ | | | | |
+| Vault | • [CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [Demo](https://github.com/jamesob/opvault-demo)<br>• [Sandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | ✓ | | | | |
+| Android CTV Demo | • [Code](https://github.com/percy-g2/android_app_ctv_playground)<br>• [Release](https://github.com/percy-g2/android_app_ctv_playground/releases/tag/v0.1.0) | Native Android implementation demonstrating CTV Vault and payment pools with interactive UI | Prototype | ✓ | | | | |
+| DLCs | • [Specs](https://github.com/discreetlogcontracts/dlcspecs/)<br>• [Cases](https://covenants.info/use-cases/dlcs/)<br>• [DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | ✓ | | ✓ | | ✓ |
+| Transferable DLCs | - | Advanced DLC implementation | Idea | | | ✓ | ✓ | ✓ |
+| Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | ✓ | | ✓ | | |
+| BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | ✓ | | | ✓ | |
+| Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | ✓ | | | | |
 
 ## Tools
 
 A collection of development and experimentation tools for CTV+CSFS.
 
-| Name | Links | Description | Phase | Primitives |
-|------|-------|-------------|-------|------------|
-| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Interactive CTV experimentation tool | Prototype | CHECKTEMPLATEVERIFY |
+| Name | Links | Description | Phase | CTV | CSFS | Use Case |
+|------|-------|-------------|-------|-----|------|----------|
+| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | • Learning CTV concepts<br>• Testing script constructions<br>• Visualizing transaction templates |
+| ctvlib | • [Repo](https://github.com/ursuscamp/ctvlib) | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | • CTV script development<br>• Transaction template generation<br>• Library integration |
+| Sapio Miniscript | • [Docs](https://docs.rs/sapio-miniscript/latest/sapio_miniscript/)<br>• [Crate](https://crates.io/crates/sapio-miniscript) | Production-ready Rust library for CTV+CSFS script development with Miniscript | Production | ✓ | ✓ | • Production script development<br>• Protocol implementation<br>• Transaction analysis<br>• PSBT integration |
 
 ## Learning Resources
 
