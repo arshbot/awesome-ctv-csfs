@@ -15,7 +15,7 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 
 | Name | Links | Description | Phase | Primitives |
 |------|-------|-------------|-------|------------|
-| Pool | • [Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Code](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/) | Rolling coinjoin (joinpool) | Prototype | CHECKTEMPLATEVERIFY |
+| Pool | • [Slides](https://notes.dunst.be/slide/#/2/slide/view/Ekky-cAegV9dSOaNOjH9TStNOmAnrhDDc9hxHlmRs5M/embed/present/)<br>• [Code](https://github.com/stutxo/op_ctv_payment_pool)<br>• [Sapio](https://github.com/sapio-lang/sapio/tree/master/plugin-example/payment_pool)<br>• [Article](https://rubin.io/bitcoin/2021/12/15/advent-18/)<br>• [Intro](https://rubin.io/bitcoin/2021/12/10/advent-13/)<br>• [IRC](https://freenode.irclog.whitequark.org/bitcoin-wizards/2019-05-21#24639752)<br>• [Coinpools](https://discrete-blog.github.io/coinpool/) | Scalable payment pool with CTV - supports up to 21 users, P2A fee management, and automatic coinjoin-like privacy | Prototype | CHECKTEMPLATEVERIFY |
 | Payment Pool | - | Payment pool implementation | Prototype | CHECKTEMPLATEVERIFY |
 | Vault | • [CTV Vault](https://github.com/jamesob/simple-ctv-vault)<br>• [Demo](https://github.com/jamesob/opvault-demo)<br>• [Sandwich](https://github.com/stutxo/Op_SecureTheSandwich) | Vault without pre-signed transactions | Prototype | CHECKTEMPLATEVERIFY |
 | Dynamic Vaults | - | Advanced vault implementation | Prototype | VAULT / CHECKCONTRACTVERIFY |
@@ -24,11 +24,14 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | Ark | • [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | CHECKTEMPLATEVERIFY / TXHASH |
 | BitVM | • [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | CHECKTEMPLATEVERIFY / CAT+Simplicity |
 | Simple CTV | • [Code](https://github.com/stutxo/simple_ctv)<br>• [Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | CHECKTEMPLATEVERIFY |
-| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Interactive CTV experimentation tool | Prototype | CHECKTEMPLATEVERIFY |
 
 ## Tools
 
-*Coming soon - Tools and libraries for working with CTV+CSFS*
+A collection of development and experimentation tools for CTV+CSFS.
+
+| Name | Links | Description | Phase | Primitives |
+|------|-------|-------------|-------|------------|
+| CTV Playground | • [Site](https://ctv.ursus.camp/)<br>• [BIP](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) | Interactive CTV experimentation tool | Prototype | CHECKTEMPLATEVERIFY |
 
 ## Learning Resources
 
