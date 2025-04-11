@@ -6,6 +6,7 @@ A curated list of resources, tools, and projects related to CHECKTEMPLATEVERIFY 
 - [Projects](#projects)
 - [Tools](#tools)
 - [Learning Resources](#learning-resources)
+- [Community Discussions](#community-discussions)
 - [Contributing](#contributing)
 
 ## Projects
@@ -29,6 +30,16 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 ## Learning Resources
 
 *Coming soon - Educational materials about CTV+CSFS*
+
+## Community Discussions
+
+Important technical discussions about OP_CTV and its applications.
+
+| Topic | Date | Author | Links | Key Points |
+|-------|------|--------|-------|------------|
+| DLC Performance Improvements | Jan 24, 2022 | Lloyd Fournier | • [Mailing List Thread](https://gnusha.org/pi/bitcoindev/CAH5Bsr2vxL3FWXnJTszMQj83jTVdRvvuVpimEfY7JpFCyP1AZA@mail.gmail.com/)<br>• [Original DLC Paper](https://adiabat.github.io/dlc.pdf)<br>• [BIP119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)<br>• [DLC Specs](https://github.com/discreetlogcontracts/dlcspecs) | • ~30x performance improvement for DLCs<br>• Eliminates multiple multiplications<br>• Reduces communication complexity<br>• Enables efficient threshold oracles<br>• Technical details on attestation points |
+
+*More discussions will be added as they are identified and analyzed.*
 
 ## Contributing
 
