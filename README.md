@@ -2,6 +2,19 @@
 
 A curated list of resources, tools, and projects related to OP_CHECKTEMPLATEVERIFY (CTV) and OP_CHECKSIGFROMSTACK (CSFS) in Bitcoin.
 
+## Quick Start: Run CTV+CSFS Signet
+
+Want to experiment with CTV and CSFS right away? Run your own signet node with both opcodes enabled:
+
+```bash
+git clone https://github.com/arshbot/ctv-csfs-signet-docker
+cd ctv-csfs-signet-docker
+cp .env.example .env
+docker-compose up -d
+```
+
+This will start a Bitcoin signet node with both CTV and CSFS enabled, perfect for development and testing. See the [CTV+CSFS Signet Node](#ctv-csfs-signet-node) tool below for more details.
+
 ## Table of Contents
 - [Projects](#projects)
 - [Tools](#tools)
@@ -30,6 +43,7 @@ A collection of development and experimentation tools for CTV+CSFS.
 
 | Name | Links | Description | Phase | CTV | CSFS | Use Case |
 |------|-------|-------------|-------|-----|------|----------|
+| CTV+CSFS Signet Node | [Repo](https://github.com/arshbot/ctv-csfs-signet-docker) | Docker-based Bitcoin node with CTV and CSFS enabled on MutinyNet signet | Production | ✓ | ✓ | Development, testing, prototyping, smart contract experimentation |
 | CTV Playground | [Site](https://ctv.ursus.camp),<br> | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | Learning CTV concepts, testing script constructions, visualizing transaction templates |
 | ctvlib | [Repo](https://github.com/ursuscamp/ctvlib),<br> | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | CTV script development, transaction template generation, library integration |
 | Minsc | [Site](https://minsc-lang.org),<br>[v0.3](https://minsc-lang.org/v0.3),<br> | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | Policy development, script compilation, address generation, contract testing |
