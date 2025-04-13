@@ -44,6 +44,7 @@ A collection of development and experimentation tools for CTV+CSFS.
 | Name | Links | Description | Phase | CTV | CSFS | Use Case |
 |------|-------|-------------|-------|-----|------|----------|
 | CTV+CSFS Signet Node | [Repo](https://github.com/arshbot/ctv-csfs-signet-docker) | Docker-based Bitcoin node with CTV and CSFS enabled on MutinyNet signet | Production | ✓ | ✓ | Development, testing, prototyping, smart contract experimentation |
+| CTV+CSFS enabled BlockExplorer | [API](https://mutinynet.com/?) | Full-featured block explorer with open REST API for CTV+CSFS enabled signet | Production | ✓ | ✓ | Transaction monitoring, API integration, product development, smart contract analysis |
 | CTV Playground | [Site](https://ctv.ursus.camp),<br> | Web-based tool for experimenting with CTV scripts and transaction templates | Prototype | ✓ | | Learning CTV concepts, testing script constructions, visualizing transaction templates |
 | ctvlib | [Repo](https://github.com/ursuscamp/ctvlib),<br> | Rust utility library extracted from CTV Playground for CTV script development | Prototype | ✓ | | CTV script development, transaction template generation, library integration |
 | Minsc | [Site](https://minsc-lang.org),<br>[v0.3](https://minsc-lang.org/v0.3),<br> | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | Policy development, script compilation, address generation, contract testing |
