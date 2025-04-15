@@ -33,7 +33,7 @@ A collection of interesting projects utilizing covenants, particularly focusing 
 | Matt Vault | [Code](https://github.com/bitcoin-inquisition/bitcoin/compare/24.0...bigspider:bitcoin-inquisition:matt-vault) | Vault implementation using CTV and contract verification opcodes | Prototype | ✓ | | | | ✓ |
 | Android CTV Demo | [Code](https://github.com/percy-g2/android_app_ctv_playground),<br>[Release](https://github.com/percy-g2/android_app_ctv_playground/releases/tag/v0.1.0) | Native Android implementation demonstrating CTV Vault and payment pools with interactive UI | Prototype | ✓ | | | | |
 | DLCs | [Specs](https://github.com/discreetlogcontracts/dlcspecs/),<br>[Cases](https://covenants.info/use-cases/dlcs/),<br>[DLCAT](https://github.com/bennyhodl/dlcat) | 30x more performant DLCs | Prototype / Spec | ✓ | | ✓ | | ✓ |
-| Ark | [Bark](https://codeberg.org/ark-bitcoin/bark/commits/branch/ctv) | Layer 2 protocol | Prototype | ✓ | | ✓ | | |
+| Ark | [Site](https://arkdev.info/),<br>[Thread](https://delvingbitcoin.org/t/evolving-the-ark-protocol-using-ctv-and-csfs/1602), | Layer 2 protocol | Prototype | ✓ | ✓ | | | |
 | BitVM | [Thread](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591) | Trust-minimized Bitcoin interoperability | Prototype | ✓ | ✓ | | ✓ | |
 | Simple CTV | [Code](https://github.com/stutxo/simple_ctv),<br>[Optech](https://bitcoinops.org/en/topics/ephemeral-anchors/) | CTV + Pay To Anchor example | Prototype | ✓ | | | | |
 
